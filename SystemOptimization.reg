@@ -1,0 +1,74 @@
+Windows Registry Editor Version 5.00
+
+; Delivery Optimization Ayarları
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
+"DODownloadMode"=dword:00000001
+
+; Uzaktan Yardım Kapat
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Remote Assistance]
+"fAllowToGetHelp"=dword:00000000
+
+; Görev Çubuğu ve Explorer Ayarları
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\OperationStatusManager]
+"EnthusiastMode"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowTaskViewButton"=dword:00000000
+"PeopleBand"=dword:00000000
+"LaunchTo"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching]
+"SearchOrderConfig"=dword:00000001
+
+; Sistem Performansı Ayarları
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000000
+"NetworkThrottlingIndex"=dword:ffffffff
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"=dword:00000001
+"AutoEndTasks"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ClearPageFileAtShutdown"=dword:00000000
+"DisablePagingExecutive"=dword:00000001
+"LargeSystemCache"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Ndu]
+"Start"=dword:00000002
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverTime"=dword:00000190
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"IRPStackSize"=dword:0000001e
+
+; Windows Feeds ve Diğer Özellikleri Kapat
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Windows Feeds]
+"EnableFeeds"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Feeds]
+"ShellFeedsTaskbarViewMode"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"HideSCAMeetNow"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement]
+"ScoobeSystemSettingEnabled"=dword:00000000
+
+; WiFi Hotspot Ayarlarını Kapat
+[HKEY_LOCAL_MACHINE\Software\Microsoft\PolicyManager\default\WiFi\AllowWiFiHotSpotReporting]
+"Value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\PolicyManager\default\WiFi\AllowAutoConnectToWiFiSenseHotspots]
+"Value"=dword:00000000
+
+; Hibernate Kapat
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Power]
+"HibernateEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
+"ShowHibernateOption"=dword:00000000

@@ -1,0 +1,61 @@
+Windows Registry Editor Version 5.00
+
+; Bing Search'ü Kapat
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=dword:00000000
+
+; Aktivite Beslemelerini Kapat
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableActivityFeed"=dword:00000000
+"PublishUserActivities"=dword:00000000
+"UploadUserActivities"=dword:00000000
+
+; Konum Servislerini Kapat
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location]
+"Value"="Deny"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Sensor\Overrides\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}]
+"SensorPermissionState"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc\Service\Configuration]
+"Status"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Maps]
+"AutoUpdateEnabled"=dword:00000000
+
+; Windows Consumer Features'ı Kapat
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableWindowsConsumerFeatures"=dword:00000001
+
+; Telemetriyi Kapat
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+"DoNotShowFeedbackNotifications"=dword:00000001
+
+; Content Delivery Manager Ayarlarını Kapat
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"ContentDeliveryAllowed"=dword:00000000
+"OemPreInstalledAppsEnabled"=dword:00000000
+"PreInstalledAppsEnabled"=dword:00000000
+"PreInstalledAppsEverEnabled"=dword:00000000
+"SilentInstalledAppsEnabled"=dword:00000000
+"SubscribedContent-338387Enabled"=dword:00000000
+"SubscribedContent-338388Enabled"=dword:00000000
+"SubscribedContent-338389Enabled"=dword:00000000
+"SubscribedContent-353698Enabled"=dword:00000000
+"SystemPaneSuggestionsEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableTailoredExperiencesWithDiagnosticData"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AdvertisingInfo]
+"DisabledByGroupPolicy"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
