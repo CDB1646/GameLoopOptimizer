@@ -16,11 +16,11 @@ namespace GameLoopOptimizer
         private string networkBackupPath = @"C:\Backup\NetworkBackup.reg";
 
         // GitHub URL'leri (kendi reponu oluşturduktan sonra güncelleyeceksin)
-        private string privacyRegUrl = "https://raw.githubusercontent.com/[kullanıcı_adınız]/GameLoopOptimizer/main/PrivacyOptimization.reg";
-        private string systemRegUrl = "https://raw.githubusercontent.com/[kullanıcı_adınız]/GameLoopOptimizer/main/SystemOptimization.reg";
-        private string servicesRegUrl = "https://raw.githubusercontent.com/[kullanıcı_adınız]/GameLoopOptimizer/main/ServicesOptimization.reg";
-        private string gameRegUrl = "https://raw.githubusercontent.com/[kullanıcı_adınız]/GameLoopOptimizer/main/GameOptimization.reg";
-        private string networkRegUrl = "https://raw.githubusercontent.com/[kullanıcı_adınız]/GameLoopOptimizer/main/NetworkOptimization.reg";
+        private string privacyRegUrl = "https://raw.githubusercontent.com/CDB1646/GameLoopOptimizer/main/PrivacyOptimization.reg";
+        private string systemRegUrl = "https://raw.githubusercontent.com/CDB1646/GameLoopOptimizer/main/SystemOptimization.reg";
+        private string servicesRegUrl = "https://raw.githubusercontent.com/CDB1646/GameLoopOptimizer/main/ServicesOptimization.reg";
+        private string gameRegUrl = "https://raw.githubusercontent.com/CDB1646/GameLoopOptimizer/main/GameOptimization.reg";
+        private string networkRegUrl = "https://raw.githubusercontent.com/CDB1646/GameLoopOptimizer/main/NetworkOptimization.reg";
 
         private string privacyRegPath = Path.Combine(Path.GetTempPath(), "PrivacyOptimization.reg");
         private string systemRegPath = Path.Combine(Path.GetTempPath(), "SystemOptimization.reg");
